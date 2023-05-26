@@ -18,7 +18,7 @@ const io = socketIO(server);
 
 app.use(express.json());
 app.use(express.urlencoded({
-  extended: true
+  extended: true.           
 }));
 
 /**
